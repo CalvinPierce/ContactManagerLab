@@ -10,9 +10,9 @@ namespace Lab3.Models
             : base(options)
         { }
 
-        DbSet<Contact> Contacts { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
-        DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
