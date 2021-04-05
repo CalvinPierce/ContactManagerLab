@@ -19,7 +19,7 @@ namespace Lab3.Controllers
         {
             var contacts = context.Contacts
                 .Include(c => c.Category)
-                .OrderBy(c => c.FirstName.ToList());
+                .OrderBy(c => c.FirstName);
             return View(contacts);
         }
     }
