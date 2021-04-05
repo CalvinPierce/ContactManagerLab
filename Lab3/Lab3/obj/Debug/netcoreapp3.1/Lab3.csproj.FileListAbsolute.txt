@@ -12,7 +12,6 @@ C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\L
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.TagHelpers.output.cache
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.RazorCoreGenerate.cache
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.RazorTargetAssemblyInfo.cache

@@ -78,8 +78,6 @@ namespace Lab3.Controllers
                 ViewBag.Categories = context.Categories.OrderBy(c => c.Name).ToList();
                 return View(contact);
             }
-
-            return View();
         }
 
         [HttpPost]
