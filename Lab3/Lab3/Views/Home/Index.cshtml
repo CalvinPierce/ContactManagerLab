@@ -3,14 +3,15 @@
     ViewData["Title"] = "Contact Manager";
 }
 
+<h2>Contact List</h2>
 <a asp-action="Add" asp-controller="Contact">Add Contact</a>
-<table>
+<table class="table table-bordered table-striped">
     <thead>
-        <tr>First Name</tr>
-        <tr>Last Name</tr>
-        <tr>Phone Number</tr>
-        <tr>Email Address</tr>
-        <tr>Category</tr>
+        <tr><th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone Number</th>
+        <th>Email Address</th>
+        <th>Category</th></tr>
     </thead>
 
     <tbody>
