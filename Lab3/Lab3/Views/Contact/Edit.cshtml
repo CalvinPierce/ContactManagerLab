@@ -1,0 +1,63 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Edit Contact";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label" asp-for="FirstName">First Name</label>
+        <div class="col-sm-10">
+            <input asp-for="FirstName" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label" asp-for="LastName">Last Name</label>
+        <div class="col-sm-10">
+            <input asp-for="LastName" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label" asp-for="Phone">Phone</label>
+        <div class="col-sm-10">
+            <input asp-for="Phone" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label" asp-for="Email">Email</label>
+        <div class="col-sm-10">
+            <input asp-for="Email" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label" asp-for="CategoryId">Category</label>
+        <div class="col-sm-10">
+            <select asp-for="CategoryId" class="form-control">
+                <option value="">Select a category</option>
+                @foreach (Category c in ViewBag.Categories)
+                {
+                    <option value="@c.CategoryId">@c.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 col-form-label" asp-for="Organization">Organization</label>
+        <div class="col-sm-10">
+            <input asp-for="Organization" class="form-control">
+        </div>
+    </div>
+
+    <input type="hidden" asp-for="ContactId" />
+
+    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+    <a asp-controller="Contact" asp-action="Index" class="btn btn-primary">Cancel</a>
+</form>

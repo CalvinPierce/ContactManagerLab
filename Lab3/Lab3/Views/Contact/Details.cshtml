@@ -1,0 +1,50 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Contact Details";
+}
+
+<h2>Contact Details</h2>
+<table class="table">
+    <tbody>
+        <tr>
+            <td>Name:</td>
+            <td>@Model.FirstName @Model.LastName</td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td>@Model.Phone</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td>Category:</td>
+            <td>@Model.Category.Name</td>
+        </tr>
+        <tr>
+            <td>Organization:</td>
+            <td>@Model.Organization</td>
+        </tr>
+        <tr>
+            <td>Date Added:</td>
+            <td>@Model.DateAdded</td>
+        </tr>
+        <tr>
+            <td>
+                <a class="btn btn-secondary" role="button"
+                   asp-controller="Contact" asp-action="Edit"
+                   asp-route-id="@Model.ContactId"
+                   asp-route-slug="@Model.Slug">Edit</a>
+
+                <a class="btn btn-secondary" role="button"
+                   asp-controller="Contact" asp-action="Delete"
+                   asp-route-id="@Model.ContactId"
+                   asp-route-slug="@Model.Slug">Delete</a>
+
+                <a class="btn btn-secondary" role="button" asp-controller="Home" asp-action="Index">Home</a>
+            </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>

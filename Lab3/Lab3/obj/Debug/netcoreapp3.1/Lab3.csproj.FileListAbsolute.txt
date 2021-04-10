@@ -76,3 +76,6 @@ C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\L
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.Views.pdb
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.csproj.CopyComplete
 C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.genruntimeconfig.cache
+C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Delete.cshtml.g.cs
+C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Details.cshtml.g.cs
+C:\Users\calvi\Desktop\GBC 20-21 (Year 2)\Winter Semester\COMP 2139\Labs\Week4\Lab3\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Edit.cshtml.g.cs
